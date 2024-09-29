@@ -6,7 +6,7 @@ const Foreground = () => {
 
     const data = [
         {
-            descp: "this is document 1",
+            descp: "this is document 10",
 
             filesize: "2.4mb",
             closed: false ,
@@ -14,14 +14,14 @@ const Foreground = () => {
         },
 
         {
-            descp: "this is document 2",
+            descp: "this is document 20",
             filesize: "0.9mb",
             closed: true ,
             tag: { isOpen: true, tagTitle: "Continue reading" , tagColor: "blue"},
         },
 
         {
-            descp: "this is document 3",
+            descp: "this is document 30",
             filesize: "6.9mb",
             closed: false ,
             tag: { isOpen: true, tagTitle: "Download Now" , tagColor: "green"},

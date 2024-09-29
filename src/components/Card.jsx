@@ -7,7 +7,11 @@ import { IoClose } from "react-icons/io5";
 
 const Card = ({ data , reference }) => {
   return (
-    <motion.div drag dragConstraints={reference} whileDrag={{scale:1.2}} className='h-72 w-60 relative rounded-[50px] bg-zinc-900/80 p-5 overflow-hidden'>
+    <motion.div drag 
+    
+    
+    whileDrag={{scale:1.2}}
+     className='h-72 w-60 relative rounded-[50px] bg-zinc-900/80 p-5 overflow-hidden'>
 
     <FaRegFileAlt />
 
